@@ -647,3 +647,19 @@ header {
         margin-top: 2rem;
     }
 }
+
+.header-text{
+    color: white;
+    font: LotoHeavy;
+    text-align:center; flex: 1;
+    
+}
+
+.header-img{
+    width:50px; height:50px; margin-bottom:10px;
+}
+
+@font-face {
+    font-family: LotoHeavy;
+    src: url(../fonts/lato/Lato-Heavy.tff);
+}
