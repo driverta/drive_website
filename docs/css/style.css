@@ -169,12 +169,19 @@ p.lead {
 
 @media (max-width:767px) {
     h1 {
-        font-size: 40px;
+        font-size: 30px;
+        margin-bottom: 0px;
     }
     h2 {
         font-size: 30px;
     }
+
+    .app-button{
+        width:60%;
+    }
+
 }
+
 
 
 /* NAVBAR
@@ -272,7 +279,7 @@ header {
         font-size: 17px;
     }
     .img-holder {
-        padding-bottom: 100%;
+        padding-bottom: 90%;
     }
 }
 
@@ -281,10 +288,10 @@ header {
 ----------------------*/
 
 .gradient-fill:before {
-    color: #fc73b4;
-    background: -moz-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: -webkit-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: linear-gradient(to bottom, #9477b4 0%, #fc73b4 100%);
+    color: white;
+    background: -moz-linear-gradient(top, white 0%, white 100%);
+    background: -webkit-linear-gradient(top, white 0%, white 100%);
+    background: linear-gradient(to bottom, white 0%, white 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -311,9 +318,9 @@ header {
     position: absolute;
     width: 3px;
     color: #fc73b4;
-    background: -moz-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: -webkit-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: linear-gradient(to bottom, #9477b4 0%, #fc73b4 100%);
+    background: -moz-linear-gradient(top, black 0%, black 100%);
+    background: -webkit-linear-gradient(top, black 0%, black 100%);
+    background: linear-gradient(to bottom, black 0%, black 100%);
     top: 0;
     bottom: 0;
     left: 0;
@@ -492,7 +499,7 @@ header {
 }
 
 .owl-theme .owl-dots .owl-dot span {
-    background: #e7d9eb;
+    background: white;
     width: 35px;
     height: 8px;
     border-radius: 10px;
@@ -500,11 +507,11 @@ header {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #ff487e;
+    background: #E55757;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-    background: #ff487e;
+    background: #5D0000;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
@@ -619,7 +626,7 @@ header {
 ----------------------*/
 
 .social-icons {
-    text-align: right;
+    text-align: center;
 }
 
 .social-icons a {
@@ -652,6 +659,7 @@ header {
     color: white;
     font: LotoHeavy;
     text-align:center; flex: 1;
+    margin-left:5%;
     
 }
 
@@ -662,4 +670,47 @@ header {
 @font-face {
     font-family: LotoHeavy;
     src: url(../fonts/lato/Lato-Heavy.tff);
+}
+
+.drive-theme{
+    background-color: #aa1414;
+}
+
+.drive-theme p,h4{
+    color: white;
+}
+
+.card-img{
+    margin-top: 2%;
+}
+
+.white-bg{
+    background-color:white;
+}
+
+.drive-footer-copyright{
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+.drive-footer-padding-bottom{
+    padding-top: 3rem!important;
+    padding-bottom: 0px;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 990px)  {
+    .smaller{
+        font-size: .81em;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) and (min-width: 600px)  {
+    .smaller{
+        font-size: .81em;
+    }
+    [class^="ti-"],
+    [class*=" ti-"] {
+        margin-top:1%;
+    }
 }
